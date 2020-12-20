@@ -10,5 +10,8 @@ void main() {
   myGlist.insert(5, "mahumd");
   myGlist.insertAll(6, ["mahumd*", "babu*", "asif*"]);
 
+  myGlist.remove("joy");
+  myGlist.removeAt(2);
+
   print(myGlist);
 }
