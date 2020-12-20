@@ -1,13 +1,9 @@
 void main() {
-  dynamic Name = 'Hasan';
-  for (int a = 0; a < 15; a++) {
-    print("${a} dart" + " " + Name);
-    var i = 0;
-    if (i == a) {
-      do {
-        print("${i} A");
-        i++;
-      } while (i <= 5);
-    }
-  }
+  var mylist = List(4);
+  mylist[0] = "hasan1";
+  mylist[1] = "hasan2";
+  mylist[2] = "hasan3";
+  mylist[3] = "hasan4";
+
+  print("${mylist} hasan");
 }
