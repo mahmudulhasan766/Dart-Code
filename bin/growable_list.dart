@@ -13,5 +13,6 @@ void main() {
   myGlist.remove("joy");
   myGlist.removeAt(2);
 
+  myGlist.replaceRange(7, 7, ["Bangladesh"]);
   print(myGlist);
 }
