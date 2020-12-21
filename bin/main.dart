@@ -1,4 +1,5 @@
 import 'constClass.dart';
+import 'getsetModel.dart';
 import 'myClass.dart';
 import 'static.dart';
 
@@ -22,4 +23,12 @@ void main() {
   var conObj = myConstClass("Hello Bangladesh", 24);
   print("My const name : ${conObj.name}");
   print("My const age : ${conObj.age}");
+
+  //geter seter moder use.....
+
+  var setgetmodel = GeterSeterModel();
+
+  setgetmodel.setName = "Bangaldesh!!!!!";
+
+  print(setgetmodel.getName);
 }
