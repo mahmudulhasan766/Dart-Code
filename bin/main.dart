@@ -1,3 +1,7 @@
+import 'constClass.dart';
+import 'myClass.dart';
+import 'static.dart';
+
 void main() {
   var mylist = List(4);
   mylist[0] = "hasan1";
@@ -6,4 +10,16 @@ void main() {
   mylist[3] = "hasan4";
 
   print("${mylist} hasan");
+
+  var obj = MyClass(); //this is object
+
+  int c = 34, d = 67;
+  obj.myFunc(c, d);
+
+  MyStClass.addMyTwo();
+
+  //Constractor........
+  var conObj = myConstClass("Hello Bangladesh", 24);
+  print("My const name : ${conObj.name}");
+  print("My const age : ${conObj.age}");
 }
